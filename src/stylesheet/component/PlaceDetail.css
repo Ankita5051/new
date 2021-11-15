@@ -1,0 +1,161 @@
+.place-detail-banner{
+ background: url('../../img/Sea.jpg') no-repeat center center/cover;
+ height: 60rem;
+}
+.place-detail{
+    display: flex;
+    flex-direction:row;
+  width: 100%;
+  margin: 0;
+  justify-content: space-around;
+}
+.place-detail .detail-1{
+   width: 50%;
+   box-sizing: border-box;
+   padding: 4% 2% 4% 8%;
+   box-sizing: border-box;
+}
+.detail-1 h1{
+    color: rgb(134, 134, 250);
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 4.4rem;
+}
+.detail-1 p{
+    color: rgb(15, 15, 122);
+    font-size: 2rem;
+    padding:0 4% 0 0;
+}
+.detail-1 .trip-det{
+    text-transform: capitalize;
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 3.3rem;
+}
+.detail-1 .final-book {
+    text-decoration: none;
+    font-size: 2.5rem;
+    box-sizing: border-box;
+    padding: .5rem;
+    font-weight: 700;
+    border: 3px solid rgb(108, 108, 252);
+    color: white;
+    transition: all .5s;
+    background:rgb(87, 87, 253) ;
+}
+.detail-1 .final-book:hover{
+    background:white ;
+ 
+    color:rgb(87, 87, 253) ;
+}
+.place-detail .detail-2{
+    width: 50%;
+    background:no-repeat center center/cover;
+display: flex;
+height:60rem;
+flex-direction: column;
+justify-content: center;
+}
+.detail-2 .prise{
+    float: left;
+    width: fit-content;
+    position: relative;
+    transform: translateX(-7rem);
+    text-align: center;
+    background:rgb(87, 87, 253) ;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 5%;
+}
+.detail-2 .prise h3{
+    font-size: 3.7rem;
+    color: white;
+    font-weight:700;
+}
+.detail-2 .prise p{
+    color: white;
+    text-transform: capitalize;
+}
+.detail-2 .prise i{
+    font-size: 3rem;
+}
+.place-gallery{
+    box-sizing: border-box;
+    position: relative;
+    width: 60%;
+    height: 70rem;
+    padding: 7% ;
+    margin-top: 5rem;
+    padding-right: 17%;
+    margin-bottom: 5rem;
+}
+.plc-img{
+    cursor: pointer;
+    position: absolute;
+    height: 20rem;
+    background: no-repeat center center/cover;
+    overflow: hidden;
+    width: 20rem;
+    transition:all 1s;
+    z-index: 300;
+}
+.place-gallery h2{
+    font-size: 5rem;
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    color: rgb(134, 134, 250);
+}
+.place-gallery p{
+    font-size: 1.8rem;
+    color: rgb(15, 15, 122);
+    padding-right:4rem ;
+}
+.place-gallery .img-1{
+    height: 35rem;
+    width: 23rem;
+    transform: translate(96rem,14%);
+  
+}
+.place-gallery .img-2{
+    height: 28rem;
+    width: 23rem;
+    transform: translate(96rem,-90%);
+
+}
+.place-gallery .img-3{
+    height: 32rem;
+    width: 23rem;
+    transform: translate(71rem,32%);
+
+}
+.place-gallery .img-4{
+    
+    height: 30rem;
+    width: 23rem;
+    transform: translate(71rem,-73%);
+}
+.place-gallery .img-7{
+    height: 33rem;
+    width: 24rem;
+    transform: translate(45rem,-85%);
+  
+}
+.place-gallery .img-6{
+    height: 33rem;
+    width: 24rem;
+    transform: translate(45rem,21%);
+}
+
+.place-gallery .img-8{
+    height: 28rem;
+    width: 40rem;
+    transform: translate(2rem,40%);
+}
+.bigImg{ 
+  height: 60rem;
+  width: 100%;
+  z-index: 10000;
+  transform: translate(18rem,-37%);
+  transition:all 1s;
+}

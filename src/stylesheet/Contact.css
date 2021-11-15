@@ -1,0 +1,150 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact-1{
+    display: flex;
+    user-select: none;
+   
+   }
+
+.contact-img{
+    width: 50%;
+        height: 55rem;
+    overflow: hidden;
+    background: url('../img/Hill.jpeg') no-repeat center center/cover;
+}
+.contact-detail{
+    background: rgb(225, 234, 253);
+    display: flex;
+    flex-direction: column;
+    padding:  4%;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.contact-detail h1{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;    
+    color:rgb(62, 62, 63);
+    padding: 3% 0 1% 0;
+    font-weight: 400;
+}
+.contact-detail p{
+    font-family:  'Montserrat' ,sans-serif;
+    /* line-height: 2.8rem; */
+    /* color: rgb(92, 92, 139); */
+    color: rgb(106, 106, 110);
+    font-weight: 400;
+    font-size: 2rem;
+}
+.c-d{
+    cursor: pointer;
+}
+.contact-detail h3{
+    text-transform: capitalize;
+    font-size: 2.6rem;
+    color: rgb(106, 106, 250);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding: 3% 0 2% 0;
+}
+.contact-link i{
+    /* color:rgb(127, 127, 133) ; */
+    color: rgb(106, 106, 110);
+    font-size: 2.3rem;
+    transition: color .5s linear;
+}
+.contact-link i:hover{
+    color: rgb(248, 247, 253) ;
+}
+.c-reach{
+    display: flex;
+    background: rgb(235, 235, 255);
+    
+}
+.contact-form{
+    width: 50%;
+    background: rgb(235, 235, 255);
+    padding: 4% 8%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form h3{
+    font-size: 3.5rem;
+  
+}
+.contact-form form input{
+    border: none;
+    display: block;
+    width: 50rem;
+  box-sizing: border-box;
+     font-size: 1.8rem;
+    font-family: 'Montserrat';
+    outline: none;
+    margin: 2% auto;
+    font-family: 'Montserrat';
+    border: .1rem solid  rgb(160, 160, 245);
+  box-shadow: 0 .5rem .8rem rgba(157, 126, 245, 0.568);
+    padding:.5rem 2rem;
+    color: gray;
+}
+.contact-form form textarea{
+    border: none;
+    display: block;
+    width: 50rem;
+    box-shadow: 0 .5rem .8rem rgba(157, 126, 245, 0.568);
+    border: .1rem solid  rgb(160, 160, 245);    
+    height: 10rem;
+    outline: none;
+    padding:1rem 2rem;
+    font-size: 1.8rem;
+    font-family: 'Montserrat';
+    margin: auto;
+    color: gray;
+}
+input::placeholder{
+    color: rgb(87, 87, 88);
+    font-family: 'Montserrat';
+
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5%;
+    justify-content: space-around;
+    width: 50%;
+}
+.map iframe{
+    border: none;
+    margin: auto;
+    width:100%;
+    height: 30rem;
+}
+.map h3{
+    font-size: 3.5rem;
+}
+.contact-form form .contact-btn{
+    font-size: 2rem;
+    width: 16rem;
+    padding: .4rem 0;
+    background: white;
+    margin:2rem  auto;
+    color: rgb(103, 103, 253);
+    border: 1px solid  rgb(160, 160, 245);
+    justify-content: left;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    box-shadow: 0 .5rem .8rem rgba(157, 126, 245, 0.568);
+   
+}
+.contact-btn:hover {
+    background: rgb(103, 103, 253);
+    color: white;
+}

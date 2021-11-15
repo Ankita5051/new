@@ -1,0 +1,73 @@
+
+.package-card{
+    box-sizing: border-box;
+    padding:2rem 0;
+}
+.package-img{
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    width: 50rem;
+    height: 30rem;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;    
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    background:no-repeat center center/cover;
+}
+.package-img:hover{
+    /* background: linear-gradient(to top,rgba(175, 175, 253, 0.692),rgba(187, 187, 250, 0.644)),url('../../img/Ganga-1.jpg') no-repeat center center/cover; */
+    box-sizing: border-box;
+    border: .4rem solid rgba(142, 142, 247, 0.678) ;
+}
+.package-img a:hover{
+text-decoration: none;
+border: none;
+}
+.package-img a i{
+    font-size: 3.5rem;
+    color: white;
+    transition:all 1s;
+    display: none;
+}
+.package-img:hover .pac-link-icon{
+display:block;
+}
+.package-card h3{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.package-card p{
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(8, 8, 133);
+    font-size: 1.3rem;
+    padding: 0 3.4rem;
+    box-sizing: border-box;
+}
+.package-card .package-btn{
+    text-decoration: none;
+    border: .2rem solid rgb(109, 109, 248);
+    text-align: center;
+    font-size: 2.3rem;
+    margin: auto;
+    display: block;
+    width: 18rem;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: rgb(109, 109, 248);
+    font-weight: 600;
+    transition: color .5s;
+  }
+.package-card .line{
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid rgb(8, 8, 133) ;
+    width: 50rem;
+}
+.package-card .package-btn:hover{
+    background: rgb(109, 109, 248);
+    color: white;
+}

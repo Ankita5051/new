@@ -1,0 +1,215 @@
+.tech-slideshow {
+    height: 60rem;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .tech-slideshow > div {
+    height:60rem;
+    width: 4026px;
+    background: url('../img/collage.jpg') no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+  }
+  .tech-slideshow .mover-1 {
+    animation: moveSlideshow 20s linear infinite;
+    /* animation-delay: 8s; */
+  }
+  .tech-slideshow .mover-2 {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    background-position: 0 -600px;
+    animation: moveSlideshow 17s linear infinite;
+    
+  }
+  .tech-slideshow:hover .mover-2 {
+    opacity: 1;
+  }
+  
+  @keyframes moveSlideshow {
+    100% {
+      transform: translateX(-66.6666%);
+    }
+  }
+  
+.qutes{
+    background: rgb(235, 233, 245);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3% 7%;
+
+}
+.qutes .fas{
+    color:  rgb(121, 121, 252);
+    margin: 0 3rem;
+    font-size: 3.2rem;
+}
+.qutes p{
+    padding: 0 24%;
+    text-align: center;
+    font-size:2.2rem ;
+    color: rgb(138, 138, 252);
+}
+
+
+.special-offer{
+    display: flex;
+    flex-direction: row;
+    background: rgb(201, 201, 243);
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 4% 10%;
+}
+
+.special-service{
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    justify-content: space-around;
+  
+    padding: 0 2rem ;
+}
+.special-img{
+    height: 20rem;
+    width: 35%;
+    overflow: hidden;
+}
+.special-img img{
+    box-sizing: border-box;
+    width: 100%;
+    border: .5rem outset rgb(249, 249, 252);
+    height: 100%;
+}
+.special-service .comman-head{
+    text-align: left;
+    line-height: 3.2rem;
+}
+.sepcial-para{
+    box-sizing: border-box;
+    padding: 0 2rem;
+    font-size: 2rem;
+    width: 46%;
+}
+.sepcial-para p{
+    font-family: 'Montserrat';
+    color: gray;
+    line-height: 2.7rem;
+}
+.sepcial-para .comman-head{
+    text-align: left;
+    font-size: 3rem;
+}
+
+  .destination{
+      display: flex;
+      flex-direction: column;
+      padding: 3rem 7% 2% 7%;
+      justify-content: center;
+  }
+  .comman-head{
+    text-transform: capitalize;
+    font-size: 2.4rem;
+    color:  rgb(107, 107, 247);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding-bottom:2%;
+    text-align: center; 
+
+}
+  .destination h1{
+    font-size: 4rem;
+  }
+ 
+ 
+  .offer{
+      box-sizing: border-box;
+      padding: 0 7% 3% 7%;
+      background:rgb(228, 224, 250); ;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+  .offer .comman-head{
+    font-size: 4rem;
+   box-sizing: border-box;
+   padding: 2% 0;
+}
+
+.offer-card-wrapper{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+      grid-gap:2.5rem;
+padding:6% 0;
+}
+.little-about{
+    background:linear-gradient(to right,rgba(149, 147, 252, 0.603),rgba(83, 108, 255, 0.6)), url('../img/Img3.jpg')  no-repeat center center/cover;
+    overflow: hidden;
+    width: 100%;
+    justify-content: space-around;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 4% 24%;
+    
+}
+.l-a-img{
+    width: 18%;
+    height: 11rem;
+}
+.l-a-img img{
+    border-radius: 5.5rem;
+    width: 100%;
+    height: 100%;
+}
+.l-a-content{
+    width: 27%;
+    padding: 2.3rem;
+    color: rgb(255, 255, 255);
+}
+.l-a-content h3{
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans';
+}
+.l-a-content p{
+    font-size: 1.3rem;
+}
+
+.Our-guider{
+    padding: 2% 7%;
+    box-sizing: border-box;
+}
+.guider-wrapper{
+box-sizing: border-box;
+padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Our-guider h3{
+    color: rgb(107, 107, 247);
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    
+}
+
+.our-costomer h2{
+    font-size: 4rem;
+}
+.our-costomer .line{
+ width: 20rem;
+margin: auto;
+}
+.carousel-inner{
+    margin: auto;
+
+}

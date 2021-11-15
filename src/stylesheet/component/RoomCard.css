@@ -1,0 +1,31 @@
+.room{
+    box-sizing: border-box;
+    padding: 1rem 0;
+}
+  .room-img{
+    cursor: pointer;
+    height: 28rem;
+    background: no-repeat center center/cover;
+  }
+  .room .comman-head{
+    font-size: 3rem;
+  }
+  .room p{
+    text-align: center;
+    font-size: 1.7rem;
+    box-sizing: border-box;
+    padding: 2rem 3rem;
+    color:rgb(8, 8, 133) ;
+  }
+  .room h4{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(92, 92, 253);
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgb(8, 8, 133);
+  }
+  .room-prise i{
+    font-size: 2.5rem;
+  }
